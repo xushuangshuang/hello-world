@@ -13,7 +13,7 @@ public class He extends HttpServlet
 					+"   users: <input type = \"text\" name = \"username\"/>\n"
 					+"   password: <input type = \"password\" name = \"password\"/>\n"
 		  			+"	<input type = \"submit\" value = \"login\"/>\n"
-				 	 +"  </form>\n"
+				 	+"  </form>\n"
 					+"</body>\n"
 					+"</html>\n";
 	static final String loginfailHtml ="<html>\n"
@@ -21,7 +21,7 @@ public class He extends HttpServlet
 					+ "   <hi> error</hi>\n"
 					+ "      <form action=\"\" method=\"GET\">\n"						
 		  			+"     	<input type = \"submit\" value = \"back\"/>\n"
-					 +"  </form>\n"
+				        +"  </form>\n"
 					+"</body>\n"
 					+"</html>\n";
 
